@@ -210,7 +210,7 @@ with right:
             help="The order you select will be the order in the document header block.",
         )
 
-        filename_pattern = st.text_input("Filename pattern ('.docx' added if missing)", value="{FullName} - {Group}")
+        filename_pattern = st.text_input("Filename pattern ('.docx' added if missing)", value="{Full Name} - {Country}")
         st.caption("Use {ColumnName} placeholders, e.g. {FullName}, {Group}. Unknown names become empty.")
 
         st.subheader("4) Preview (single row)")
